@@ -7,7 +7,10 @@ function App() {
     const [qrCode, setQrCode] = useState('')
 
     const GenerateQRCode = () => {
-        QRCode.toDataURL(url, (err: any, url: any) => {
+        QRCode.toDataURL(url, {
+            width: 800,
+            margin: 2
+        }, (err: any, url: any) => {
             if (err) return console.error(err)
 
             console.log(url)

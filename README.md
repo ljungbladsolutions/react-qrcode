@@ -1,6 +1,9 @@
 ## Tutorial to generate QR codes using React
 https://www.youtube.com/watch?v=74zwJzCTNBE
 
+Using the npm qrcode package
+https://www.npmjs.com/package/qrcode
+
 
 ### Commands used:
 ```
